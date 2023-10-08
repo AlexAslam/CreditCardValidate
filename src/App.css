@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Card styles*/
+.CardWrapper {
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  height: 213.45px;
+  margin: 0 0 30px;
+}
+
+.CardWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.CardWrapper span {
+  font-weight: bold;
+  position: relative;
+  top: 23px;
+  font-size: 20px;
+  color: #5a6e80;
+}
